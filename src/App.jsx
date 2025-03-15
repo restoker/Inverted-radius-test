@@ -47,8 +47,8 @@ function App() {
       <div className="grid grid-cols-6 grid-rows-6 gap-0 w-full h-full bg-[url(/img/3.webp)] bg-center bg-cover">
         {/* seccion top left */}
         <div className="inv-rad-4 bg-white bg-cover rounded-br-4xl p-3 relative">
-          <div className='absolute -right-[3.6rem] -top-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-tl-4xl before:shadow-[-12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
-          <div className='absolute left-0.5 -bottom-[5.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:-top-8 before:-left-0.5 before:rounded-tl-4xl before:shadow-[-12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute -right-[3.6rem] -top-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-tl-4xl before:shadow-[-12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute left-0.5 -bottom-[5.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:-top-8 before:-left-0.5 before:rounded-tl-4xl before:shadow-[-12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <div className="flex flex-col items-center w-full h-full">
             <div className="flex justify-evenly items-center">
               <div className="flex flex-col items-center mr-1">
@@ -65,24 +65,26 @@ function App() {
         {/* section top right */}
         <div className="col-start-6 bg-white bg-cover rounded-bl-4xl p-3 relative">
           {/* clip for top */}
-          <div className='absolute -left-[5.88rem] -top-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-tr-4xl before:shadow-[12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute -left-[3.4rem] -top-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-tr-4xl before:shadow-[12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           {/* clip for bottom */}
-          <div className='absolute right-[2.4rem] -bottom-6 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-tr-4xl before:shadow-[12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute -right-0.5 -bottom-6 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-tr-4xl before:shadow-[12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <div className="flex flex-col items-center w-full">
-            <img src="/img/flair2.png" alt="mano" className="size-16" />
+            <img src="/img/flair2.png" alt="mano" className="size-16 animate-spin" />
             <p className="text-5xl">21:35</p>
           </div>
           {/* 2 */}
         </div>
 
-        {/* seccion bottom center 4 */}
+        {/* seccion bottom left */}
         <div className="col-span-2 row-span-2 row-start-5 bg-white bg-cover rounded-tr-4xl pt-3 pr-3 relative">
-          <div className='absolute left-0.5 -top-16 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:-top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_10px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute left-0.5 -top-6 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:-top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_10px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <img src="/img/1.webp" className="rounded-4xl h-full w-full object-cover object-top" alt="" />
         </div>
+
+        {/* seccion bottom center 4 */}
         <div className="col-span-2 col-start-3 row-start-6 bg-white bg-cover rounded-tr-4xl pt-3 pr-3 relative">
-          <div className='absolute -right-[3.6rem] bottom-[4.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
-          <div className='absolute left-[0.15rem] -top-32 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute -right-[3.6rem] bottom-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute left-[0.15rem] -top-[5.45rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <div className="flex justify-between items-center py-5 px-10">
             <div>
               <h1 className="font-bold text-3xl">Sakura Dreams</h1>
