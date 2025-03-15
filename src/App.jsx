@@ -61,6 +61,8 @@ function App() {
           </div>
           {/* 1 */}
         </div>
+
+        {/* section top right */}
         <div className="col-start-6 bg-white bg-cover rounded-bl-4xl p-3 relative">
           {/* clip for top */}
           <div className='absolute -left-[5.88rem] -top-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-tr-4xl before:shadow-[12px_-12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
@@ -72,7 +74,8 @@ function App() {
           </div>
           {/* 2 */}
         </div>
-        {/* seccion boton center 4 */}
+
+        {/* seccion bottom center 4 */}
         <div className="col-span-2 row-span-2 row-start-5 bg-white bg-cover rounded-tr-4xl pt-3 pr-3 relative">
           <div className='absolute left-0.5 -top-16 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:-top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_10px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <img src="/img/1.webp" className="rounded-4xl h-full w-full object-cover object-top" alt="" />
@@ -93,11 +96,11 @@ function App() {
           {/* 4 */}
         </div>
 
-        <div className="row-span-2 col-start-6 row-start-5 bg-white bg-cover rounded-tl-4xl p-3 relative overflow-y-auto">
-          <div className='absolute right-[2.4rem] -top-32 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-br-4xl before:shadow-[12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
-          <div className='absolute -left-[5.8rem] bottom-[4.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-br-4xl before:shadow-[12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+        <div className="row-span-2 col-start-6 row-start-5 bg-white bg-cover rounded-tl-4xl p-3 relative">
+          <div className='absolute -right-0.5 -top-[5.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-br-4xl before:shadow-[12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
+          <div className='absolute -left-[3.4rem] bottom-8 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-14 before:h-14 before:top-8 before:-left-0.5 before:rounded-br-4xl before:shadow-[12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           {/* your content here :D */}
-          <ul className="divide-y divide-gray-200 flex flex-col items-center w-full">
+          <ul className="divide-y divide-gray-200 flex flex-col items-center w-full overflow-y-auto">
             <div>
               {people.map((person) => (
                 <li key={person.email} className="flex gap-x-2 py-3">
