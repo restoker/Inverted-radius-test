@@ -37,9 +37,12 @@ function App() {
           <div className='absolute -right-[3.6rem] bottom-[4.5rem] h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <div className='absolute left-[0.15rem] -top-32 h-14 w-14 flex items-center justify-center before:content-[""] before:absolute before:w-24 before:h-24 before:top-8 before:-left-0.5 before:rounded-bl-4xl before:shadow-[-12px_12px_0px_rgba(255,255,255,1)] before:bg-transparent' />
           <div>
-            <h1>Sakura Dreams</h1>
-            <h2>Hana Mitsuki</h2>
-            <p>03:26</p>
+            <div>
+              <h1>Sakura Dreams</h1>
+              <h2>Hana Mitsuki</h2>
+              <p>03:26</p>
+            </div>
+
           </div>
           {/* 4 */}
         </div>
